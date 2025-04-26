@@ -1,0 +1,314 @@
+[
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 1,
+        "fields": {
+            "name": "Abstract Sunset Painting",
+            "description": "A vibrant painting capturing the beauty of a sunset in abstract form.",
+            "price": 50.00,
+            "quantity": 5,
+            "image_path": "products/art.png",
+            "category": 1,
+            "user": 2
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 2,
+        "fields": {
+            "name": "Modern Geometric Art",
+            "description": "A sleek and stylish geometric art piece, perfect for contemporary spaces.",
+            "price": 75.00,
+            "quantity": 3,
+            "image_path": "products/art.png",
+            "category": 1,
+            "user": 2
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 3,
+        "fields": {
+            "name": "Hand-Knitted Scarf",
+            "description": "A cozy, hand-knitted scarf made from 100% organic wool.",
+            "price": 25.00,
+            "quantity": 10,
+            "image_path": "products/clothing.png",
+            "category": 2,
+            "user": 4
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 4,
+        "fields": {
+            "name": "Custom Crochet Beanie",
+            "description": "A warm crochet beanie with a customizable color option.",
+            "price": 20.00,
+            "quantity": 8,
+            "image_path": "products/clothing.png",
+            "category": 2,
+            "user": 4
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 5,
+        "fields": {
+            "name": "Handmade Pearl Necklace",
+            "description": "An elegant necklace featuring freshwater pearls.",
+            "price": 100.00,
+            "quantity": 5,
+            "image_path": "products/jewelry.png",
+            "category": 3,
+            "user": 3
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 6,
+        "fields": {
+            "name": "Sterling Silver Earrings",
+            "description": "Handcrafted sterling silver earrings with intricate designs.",
+            "price": 45.00,
+            "quantity": 7,
+            "image_path": "products/jewelry.png",
+            "category": 3,
+            "user": 3
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 7,
+        "fields": {
+            "name": "Rustic Wooden Shelf",
+            "description": "A handcrafted wooden shelf, perfect for rustic or farmhouse decor.",
+            "price": 120.00,
+            "quantity": 2,
+            "image_path": "products/home_decor.png",
+            "category": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 8,
+        "fields": {
+            "name": "Hand-Painted Vase",
+            "description": "A beautifully painted ceramic vase to brighten any room.",
+            "price": 35.00,
+            "quantity": 4,
+            "image_path": "products/home_decor.png",
+            "category": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 9,
+        "fields": {
+            "name": "Handmade Plush Bear",
+            "description": "A soft, cuddly plush bear made with love.",
+            "price": 30.00,
+            "quantity": 6,
+            "image_path": "products/toys_and_games.png",
+            "category": 5,
+            "user": 6
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 10,
+        "fields": {
+            "name": "Crochet Toy Set",
+            "description": "A set of crochet toys featuring various animal designs.",
+            "price": 40.00,
+            "quantity": 4,
+            "image_path": "products/toys_and_games.png",
+            "category": 5,
+            "user": 6
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 11,
+        "fields": {
+            "name": "Custom Tote Bag",
+            "description": "A durable tote bag with custom print options.",
+            "price": 15.00,
+            "quantity": 12,
+            "image_path": "products/bags_and_accessories.png",
+            "category": 6,
+            "user": 5
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 12,
+        "fields": {
+            "name": "Leather Wallet",
+            "description": "A handmade leather wallet with multiple compartments.",
+            "price": 50.00,
+            "quantity": 3,
+            "image_path": "products/bags_and_accessories.png",
+            "category": 6,
+            "user": 5
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 13,
+        "fields": {
+            "name": "Landscape Watercolor Painting",
+            "description": "A serene watercolor painting of a mountain landscape.",
+            "price": 45.00,
+            "quantity": 6,
+            "image_path": "products/art.png",
+            "category": 1,
+            "user": 2
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 14,
+        "fields": {
+            "name": "Crochet Baby Blanket",
+            "description": "A soft and cuddly baby blanket made with premium yarn.",
+            "price": 30.00,
+            "quantity": 5,
+            "image_path": "products/clothing.png",
+            "category": 2,
+            "user": 4
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 15,
+        "fields": {
+            "name": "Hand-Embroidered Denim Jacket",
+            "description": "Stylish denim jacket with hand-embroidered floral patterns.",
+            "price": 75.00,
+            "quantity": 3,
+            "image_path": "products/clothing.png",
+            "category": 2,
+            "user": 4
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 16,
+        "fields": {
+            "name": "Amethyst Pendant Necklace",
+            "description": "A stunning pendant necklace featuring a polished amethyst stone.",
+            "price": 55.00,
+            "quantity": 8,
+            "image_path": "products/jewelry.png",
+            "category": 3,
+            "user": 3
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 17,
+        "fields": {
+            "name": "Copper Wire Bracelet",
+            "description": "A handcrafted bracelet made with intricate copper wire designs.",
+            "price": 35.00,
+            "quantity": 10,
+            "image_path": "products/jewelry.png",
+            "category": 3,
+            "user": 3
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 18,
+        "fields": {
+            "name": "Hand-Carved Wooden Coasters",
+            "description": "A set of 4 wooden coasters with intricate hand-carved designs.",
+            "price": 25.00,
+            "quantity": 12,
+            "image_path": "products/home_decor.png",
+            "category": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 19,
+        "fields": {
+            "name": "Floral Table Runner",
+            "description": "A handmade table runner with a colorful floral design.",
+            "price": 30.00,
+            "quantity": 7,
+            "image_path": "products/home_decor.png",
+            "category": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 20,
+        "fields": {
+            "name": "Hand-Knitted Teddy Bear",
+            "description": "An adorable teddy bear made with soft yarn and love.",
+            "price": 25.00,
+            "quantity": 9,
+            "image_path": "products/toys_and_games.png",
+            "category": 5,
+            "user": 6
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 21,
+        "fields": {
+            "name": "Custom Puzzle Set",
+            "description": "A handcrafted puzzle set featuring unique, customizable designs.",
+            "price": 40.00,
+            "quantity": 6,
+            "image_path": "products/toys_and_games.png",
+            "category": 5,
+            "user": 6
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 22,
+        "fields": {
+            "name": "Handwoven Straw Bag",
+            "description": "A durable and stylish handwoven bag, perfect for any occasion.",
+            "price": 50.00,
+            "quantity": 4,
+            "image_path": "products/bags_and_accessories.png",
+            "category": 6,
+            "user": 5
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 23,
+        "fields": {
+            "name": "Felt Flower Brooch",
+            "description": "A delicate brooch made from colorful felt flowers.",
+            "price": 15.00,
+            "quantity": 15,
+            "image_path": "products/bags_and_accessories.png",
+            "category": 6,
+            "user": 5
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.product",
+        "pk": 24,
+        "fields": {
+            "name": "Hand-Painted Tote Bag",
+            "description": "A unique tote bag with custom hand-painted designs.",
+            "price": 20.00,
+            "quantity": 8,
+            "image_path": "products/bags_and_accessories.png",
+            "category": 6,
+            "user": 5
+        }
+    }
+]

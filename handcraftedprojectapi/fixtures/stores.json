@@ -1,0 +1,56 @@
+[
+    {
+        "model": "handcraftedprojectapi.store",
+        "pk": 1,
+        "fields": {
+            "name": "Ryan's Rustic Creations",
+            "description": "Handcrafted wooden and metal decor for rustic homes.",
+            "owner": 1
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.store",
+        "pk": 2,
+        "fields": {
+            "name": "Meg's Modern Artistry",
+            "description": "Modern paintings and art pieces for contemporary spaces.",
+            "owner": 2
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.store",
+        "pk": 3,
+        "fields": {
+            "name": "Jenna's Jewelry Boutique",
+            "description": "Unique, handmade jewelry with a touch of elegance.",
+            "owner": 3
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.store",
+        "pk": 4,
+        "fields": {
+            "name": "Bryan's Cozy Creations",
+            "description": "Knitted and crocheted goods for a warm and inviting home.",
+            "owner": 4
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.store",
+        "pk": 5,
+        "fields": {
+            "name": "Emily's Eclectic Emporium",
+            "description": "A mix of handmade goods from art to accessories.",
+            "owner": 5
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.store",
+        "pk": 6,
+        "fields": {
+            "name": "Tyler's Toy Chest",
+            "description": "Handmade toys and collectibles for kids and kids-at-heart.",
+            "owner": 6
+        }
+    }
+]
