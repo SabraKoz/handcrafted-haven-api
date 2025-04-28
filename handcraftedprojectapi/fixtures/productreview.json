@@ -1,0 +1,56 @@
+[
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 1,
+        "fields": {
+            "product": 5,
+            "user": 1,
+            "review": "Absolutely beautiful! High-quality craftsmanship."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 2,
+        "fields": {
+            "product": 8,
+            "user": 2,
+            "review": "Loved the design and quick shipping!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 3,
+        "fields": {
+            "product": 6,
+            "user": 3,
+            "review": "Very unique and well-made. Highly recommended."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 4,
+        "fields": {
+            "product": 4,
+            "user": 4,
+            "review": "Super warm and comfortable. Perfect for winter."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 5,
+        "fields": {
+            "product": 12,
+            "user": 5,
+            "review": "Amazing detail and great value for the price!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 6,
+        "fields": {
+            "product": 10,
+            "user": 6,
+            "review": "My kids love it! Great quality and adorable design."
+        }
+    }
+]
