@@ -3,7 +3,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from rest_framework import serializers, status
-from handcraftedprojectapi.models import Order, Payment, OrderProduct
+from handcraftedprojectapi.models import Order, Payment, OrderProduct, Product
 from .product import ProductSerializer
 import datetime
 
@@ -86,3 +86,54 @@ class Orders(ViewSet):
         order.save()
 
         return Response({}, status=status.HTTP_204_NO_CONTENT)
+    
+    @action(methods=["get", "post", "delete"], detail=False)
+    def cart(self, request):
+
+        current_user = request.user
+
+        if request.method == "GET":
+            try:
+                open_order = Order.objects.get(user=current_user, payment=None)
+                order_items = OrderProduct.objects.filter(order=open_order)
+                order_items = OrderItemSerializer(order_items, many=True, context={"request": request})
+
+                cart = {}
+                cart["order"] = OrderSerializer(open_order, many=False, context={"request": request}).data
+                cart["order"]["size"] = len(order_items.data)
+
+            except Order.DoesNotExist:
+                final = {}
+                return Response(final)
+            
+            return Response(cart["order"])
+
+        if request.method == "POST":
+            try:
+                open_order = Order.objects.get(user=current_user, payment=None)
+            
+            except Order.DoesNotExist:
+                open_order = Order()
+                open_order.created_on = datetime.datetime.now()
+                open_order.user = current_user
+                open_order.save()
+
+            item = OrderProduct()
+            item.product = Product.objects.get(pk=request.data["product"])
+            item.order = open_order
+            item.save()
+
+            item_json = OrderItemSerializer(item, many=False, context={"request": request})
+
+            return Response(item_json.data)
+        
+        if request.method == "DELETE":
+            try:
+                open_order = Order.objects.get(user=current_user, payment=None)
+                order_items = OrderProduct.objects.filter(order=open_order)
+                order_items.delete()
+                open_order.delete()
+
+            except Order.DoesNotExist:
+                return Response({}, status=status.HTTP_204_NO_CONTENT)
+        

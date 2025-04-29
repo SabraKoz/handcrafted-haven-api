@@ -10,55 +10,34 @@ from handcraftedprojectapi.models import Order, OrderProduct, Product, Store, Pr
 from .product import ProductSerializer
 from .order import OrderSerializer
 from .store import StoreSerializer
+from .payment import PaymentSerializer
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = User
-        fields = (
-            "first_name",
-            "last_name",
-            "email"
-        )
-        depth = 1
-
-class ProfileSerializer(serializers.ModelSerializer):
-    user = UserSerializer(many=False)
+class ProfileSerializer(serializers.HyperlinkedModelSerializer):
     store = serializers.SerializerMethodField()
-    
+    payment = PaymentSerializer(many=True, source="payment_types")
+
     class Meta:
         model = User
         fields = (
             "id",
-            "url",
-            "user",
-            "payment",
-            "store"
+            "username",
+            "first_name",
+            "last_name",
+            "email",
+            "store",
+            "payment"
         )
-        depth = 1
 
     def get_store(self, obj):
-        try:
-            store = Store.objects.filter(owner=obj).first()
-            if store:
-                return StoreSerializer(store).data
-            return None
-        
-        except Exception:
-            return Response({"message": "error in getting store"}, status=status.HTTP_404_NOT_FOUND)
-
+        store = Store.objects.filter(owner=obj).first()
+        return StoreSerializer(store).data if store else None
+    
 class Profile(ViewSet):
     permission_classes = (IsAuthenticatedOrReadOnly,)
 
     def list(self, request):
         try:
-            print(f"request.auth = {request.auth}")
-            print(f"request.user = {request.user}")
-            print(f"is authenticated? {request.user.is_authenticated}")
-
             current_user = request.user
-
-            if current_user.is_authenticated:
-                return Response({"message": "User is not authenticated"}, status=status.HTTP_401_UNAUTHORIZED)
 
             serializer = ProfileSerializer(current_user, many=False, context={"request": request})
 
@@ -67,4 +46,3 @@ class Profile(ViewSet):
         except Exception:
             return HttpResponseServerError()
         
-    

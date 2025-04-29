@@ -13,8 +13,7 @@ class PaymentSerializer(serializers.ModelSerializer):
             "merchant",
             "number",
             "expiration",
-            "address",
-            "user"
+            "address"
         )
 
 class Payments(ViewSet):

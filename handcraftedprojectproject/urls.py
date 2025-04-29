@@ -14,7 +14,7 @@ router.register(r"payments", Payments, "payment")
 router.register(r"orders", Orders, "order")
 router.register(r"orderproducts", OrderProducts, "orderproduct")
 router.register(r"users", Users, "user")
-router.register(r"profile", Profile, "profile")
+router.register(r"profile", Profile, basename="profile")
 
 urlpatterns = [
     path("", include(router.urls)),
