@@ -23,23 +23,16 @@ class ProductSerializer(serializers.ModelSerializer):
             "image_path",
             "number_sold",
             "category",
+            "store",
             "user"
         )
         depth = 1
 
 class ProductDetailSerializer(ProductSerializer):
     is_favorited = serializers.SerializerMethodField()
-    store = serializers.SerializerMethodField()
 
     class Meta(ProductSerializer.Meta):
-        fields = ProductSerializer.Meta.fields + ("is_favorited", "reviews", "favorites", "store")
-
-    def get_store(self, obj):
-        try:
-            store = Store.objects.get(owner=obj.user).id
-        except:
-            store = None
-        return store
+        fields = ProductSerializer.Meta.fields + ("is_favorited", "reviews", "favorites")
     
     def get_is_favorited(self, obj):
         request = self.context.get("request")
@@ -100,6 +93,7 @@ class Products(ViewSet):
         new_product.price = request.data["price"]
         new_product.description = request.data["description"]
         new_product.quantity = request.data["quantity"]
+        new_product.store = Store.objects.get(owner=request.user)
 
         new_product.user = request.user
 
