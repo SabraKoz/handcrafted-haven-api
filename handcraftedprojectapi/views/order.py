@@ -37,6 +37,7 @@ class OrderSerializer(serializers.ModelSerializer):
             "status",
             "total"
         )
+        depth = 1
 
     def get_total(self, obj):
         items = OrderProduct.objects.filter(order=obj)
