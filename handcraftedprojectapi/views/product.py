@@ -26,7 +26,7 @@ class ProductSerializer(serializers.ModelSerializer):
             "store",
             "user"
         )
-        depth = 1
+        depth = 2
 
 class ProductDetailSerializer(ProductSerializer):
     is_favorited = serializers.SerializerMethodField()
@@ -191,8 +191,8 @@ class Products(ViewSet):
             
         return Response({}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
     
-    @action(methods=["post"], detail=True)
-    def review(self, request,pk=None):
+    @action(methods=["post", "delete"], detail=True)
+    def review(self, request, pk=None):
         current_user = request.user
         product = Product.objects.get(pk=pk)
 
@@ -210,6 +210,15 @@ class Products(ViewSet):
                 ProductReview.objects.create(user=current_user, product=product, review=review_text)
 
                 return Response({"message": "review added"}, status=status.HTTP_201_CREATED)
+            
+        if request.method == "DELETE":
+            try:
+                product_review = ProductReview.objects.get(user=current_user, product=product)
+                product_review.delete()
+                return Response({"message": "review deleted"}, status=status.HTTP_200_OK)
+            
+            except ProductReview.DoesNotExist:
+                return Response({"Review not found"}, status=status.HTTP_404_NOT_FOUND)
             
         return Response({}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
     
