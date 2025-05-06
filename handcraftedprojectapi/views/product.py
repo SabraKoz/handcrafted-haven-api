@@ -56,6 +56,12 @@ class Products(ViewSet):
         if category is not None:
             products = products.filter(category__id=category)
 
+        sort_order = request.query_params.get("sort", None)
+        if sort_order == "low":
+            products = products.order_by("price")
+        elif sort_order == "high":
+            products = products.order_by("-price")
+
         serializer = ProductSerializer(products, many=True, context={"request": request})
 
         return Response(serializer.data)
