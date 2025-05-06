@@ -14,7 +14,8 @@ class OrderItemSerializer(serializers.ModelSerializer):
         model = OrderProduct
         fields = (
             "id",
-            "product"
+            "product",
+            "customization"
         )
         depth = 1
 
@@ -119,9 +120,12 @@ class Orders(ViewSet):
                 open_order.user = current_user
                 open_order.save()
 
+            customization_message = request.data.get("customization", "")
+
             item = OrderProduct()
             item.product = Product.objects.get(pk=request.data["product"])
             item.order = open_order
+            item.customization = customization_message
             item.save()
 
             item_json = OrderItemSerializer(item, many=False, context={"request": request})
