@@ -46,5 +46,269 @@
             "user": 6,
             "product": 10
         }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 7,
+        "fields": {
+            "user": 3,
+            "product": 1
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 8,
+        "fields": {
+            "user": 5,
+            "product": 1
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 9,
+        "fields": {
+            "user": 6,
+            "product": 1
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 10,
+        "fields": {
+            "user": 4,
+            "product": 2
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 11,
+        "fields": {
+            "user": 1,
+            "product": 2
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 12,
+        "fields": {
+            "user": 5,
+            "product": 3
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 13,
+        "fields": {
+            "user": 6,
+            "product": 3
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 14,
+        "fields": {
+            "user": 1,
+            "product": 4
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 15,
+        "fields": {
+            "user": 2,
+            "product": 4
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 16,
+        "fields": {
+            "user": 4,
+            "product": 5
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 17,
+        "fields": {
+            "user": 2,
+            "product": 5
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 18,
+        "fields": {
+            "user": 1,
+            "product": 6
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 19,
+        "fields": {
+            "user": 5,
+            "product": 7
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 20,
+        "fields": {
+            "user": 3,
+            "product": 7
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 21,
+        "fields": {
+            "user": 6,
+            "product": 8
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 22,
+        "fields": {
+            "user": 2,
+            "product": 9
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 23,
+        "fields": {
+            "user": 4,
+            "product": 9
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 24,
+        "fields": {
+            "user": 1,
+            "product": 11
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 25,
+        "fields": {
+            "user": 3,
+            "product": 11
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 26,
+        "fields": {
+            "user": 6,
+            "product": 12
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 27,
+        "fields": {
+            "user": 4,
+            "product": 13
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 28,
+        "fields": {
+            "user": 2,
+            "product": 13
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 29,
+        "fields": {
+            "user": 1,
+            "product": 14
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 30,
+        "fields": {
+            "user": 5,
+            "product": 15
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 31,
+        "fields": {
+            "user": 3,
+            "product": 16
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 32,
+        "fields": {
+            "user": 6,
+            "product": 17
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 33,
+        "fields": {
+            "user": 4,
+            "product": 18
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 34,
+        "fields": {
+            "user": 2,
+            "product": 19
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 35,
+        "fields": {
+            "user": 1,
+            "product": 20
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 36,
+        "fields": {
+            "user": 5,
+            "product": 21
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 37,
+        "fields": {
+            "user": 3,
+            "product": 22
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 38,
+        "fields": {
+            "user": 6,
+            "product": 23
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productfavorite",
+        "pk": 39,
+        "fields": {
+            "user": 4,
+            "product": 24
+        }
     }
 ]

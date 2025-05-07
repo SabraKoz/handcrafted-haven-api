@@ -40,7 +40,7 @@
         "pk": 5,
         "fields": {
             "product": 12,
-            "user": 5,
+            "user": 3,
             "review": "Amazing detail and great value for the price!"
         }
     },
@@ -51,6 +51,366 @@
             "product": 10,
             "user": 6,
             "review": "My kids love it! Great quality and adorable design."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 7,
+        "fields": {
+            "product": 1,
+            "user": 3,
+            "review": "Gorgeous colors and texture. Instantly brightened my living room!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 8,
+        "fields": {
+            "product": 1,
+            "user": 5,
+            "review": "Love the abstract style—really pulls you into the scene."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 9,
+        "fields": {
+            "product": 2,
+            "user": 4,
+            "review": "Sleek and modern. The geometric patterns make a bold statement."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 10,
+        "fields": {
+            "product": 2,
+            "user": 6,
+            "review": "Perfect fit for my workspace. Adds just the right touch of elegance!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 11,
+        "fields": {
+            "product": 3,
+            "user": 1,
+            "review": "Super soft and warm! It’s my go-to for chilly days."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 12,
+        "fields": {
+            "product": 3,
+            "user": 5,
+            "review": "The quality is incredible—I can tell this was made with care."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 13,
+        "fields": {
+            "product": 4,
+            "user": 2,
+            "review": "Really cozy and fits perfectly. Love the color options!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 14,
+        "fields": {
+            "product": 5,
+            "user": 4,
+            "review": "The pearls are stunning—this necklace is truly a timeless piece."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 15,
+        "fields": {
+            "product": 6,
+            "user": 1,
+            "review": "Fantastic craftsmanship! The detailing on these earrings is impressive."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 16,
+        "fields": {
+            "product": 7,
+            "user": 3,
+            "review": "Beautifully rustic and well-built. Adds a lovely touch to my space."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 17,
+        "fields": {
+            "product": 8,
+            "user": 5,
+            "review": "The painting on this vase is exceptional. It makes a great centerpiece!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 18,
+        "fields": {
+            "product": 9,
+            "user": 2,
+            "review": "Adorable and soft. My little one loves it!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 19,
+        "fields": {
+            "product": 9,
+            "user": 4,
+            "review": "Great quality—feels like a truly special handmade piece."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 20,
+        "fields": {
+            "product": 10,
+            "user": 1,
+            "review": "These crochet animals are so cute and well-made!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 21,
+        "fields": {
+            "product": 11,
+            "user": 3,
+            "review": "Durable and stylish—I use it every day!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 22,
+        "fields": {
+            "product": 12,
+            "user": 2,
+            "review": "Great craftsmanship and design. Holds everything I need."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 23,
+        "fields": {
+            "product": 13,
+            "user": 4,
+            "review": "Stunning details—captures the peacefulness of nature perfectly!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 24,
+        "fields": {
+            "product": 13,
+            "user": 6,
+            "review": "Absolutely love the blend of colors! Feels very calming."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 25,
+        "fields": {
+            "product": 14,
+            "user": 1,
+            "review": "Incredibly soft and well-crafted. Perfect for my little one!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 26,
+        "fields": {
+            "product": 14,
+            "user": 3,
+            "review": "Warm, cozy, and beautifully made—highly recommend!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 27,
+        "fields": {
+            "product": 15,
+            "user": 2,
+            "review": "The embroidery is so intricate! Gives the jacket a unique, handmade touch."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 28,
+        "fields": {
+            "product": 15,
+            "user": 6,
+            "review": "High-quality material and stylish design—love it!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 29,
+        "fields": {
+            "product": 16,
+            "user": 1,
+            "review": "Such a gorgeous amethyst pendant! The craftsmanship is fantastic."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 30,
+        "fields": {
+            "product": 16,
+            "user": 5,
+            "review": "Elegant and well-made—definitely a standout piece."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 31,
+        "fields": {
+            "product": 17,
+            "user": 3,
+            "review": "Unique design and comfortable to wear—great craftsmanship!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 32,
+        "fields": {
+            "product": 17,
+            "user": 4,
+            "review": "The copper detailing is absolutely gorgeous—love the handmade feel."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 33,
+        "fields": {
+            "product": 18,
+            "user": 2,
+            "review": "Beautifully carved and sturdy—adds a special touch to my coffee table."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 34,
+        "fields": {
+            "product": 18,
+            "user": 6,
+            "review": "Lovely craftsmanship—I’ll definitely be using these daily!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 35,
+        "fields": {
+            "product": 19,
+            "user": 1,
+            "review": "Gorgeous floral design—instantly elevates my dining setup!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 36,
+        "fields": {
+            "product": 19,
+            "user": 5,
+            "review": "Well-made and vibrant colors—such a lovely piece."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 37,
+        "fields": {
+            "product": 20,
+            "user": 3,
+            "review": "Soft, cuddly, and adorable! My child loves it."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 38,
+        "fields": {
+            "product": 20,
+            "user": 4,
+            "review": "Such a charming teddy bear—wonderfully handcrafted."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 39,
+        "fields": {
+            "product": 21,
+            "user": 2,
+            "review": "Engaging and well-designed—definitely keeps the kids entertained!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 40,
+        "fields": {
+            "product": 21,
+            "user": 5,
+            "review": "Creative and fun—love that it’s handcrafted!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 41,
+        "fields": {
+            "product": 22,
+            "user": 3,
+            "review": "Stylish and sturdy—my new go-to bag!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 42,
+        "fields": {
+            "product": 22,
+            "user": 6,
+            "review": "Beautiful craftsmanship—great for everyday use."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 43,
+        "fields": {
+            "product": 23,
+            "user": 1,
+            "review": "Adorable brooch—adds such a lovely detail to my outfits!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 44,
+        "fields": {
+            "product": 23,
+            "user": 4,
+            "review": "Great quality and vibrant colors—such a charming accessory."
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 45,
+        "fields": {
+            "product": 24,
+            "user": 2,
+            "review": "Unique and stylish—love the hand-painted detail!"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productreview",
+        "pk": 46,
+        "fields": {
+            "product": 24,
+            "user": 1,
+            "review": "Durable and well-crafted—a wonderful tote bag."
         }
     }
 ]
