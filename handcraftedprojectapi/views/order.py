@@ -49,7 +49,7 @@ class OrderSerializer(serializers.ModelSerializer):
     
     def get_completed_on(self, obj):
         if obj.payment:
-            return datetime.datetime.now().strftime("%m/%d/%Y")
+            return obj.created_on.strftime("%m/%d/%Y")
         return None
     
 class Orders(ViewSet):

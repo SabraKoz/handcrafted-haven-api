@@ -6,7 +6,7 @@
             "name": "Abstract Sunset Painting",
             "description": "A vibrant painting capturing the beauty of a sunset in abstract form.",
             "price": 50.75,
-            "quantity": 5,
+            "quantity": 2,
             "image_path": "products/art.png",
             "category": 1,
             "store": 2,

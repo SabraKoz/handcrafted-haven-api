@@ -30,9 +30,10 @@ class ProductSerializer(serializers.ModelSerializer):
 
 class ProductDetailSerializer(ProductSerializer):
     is_favorited = serializers.SerializerMethodField()
+    available_quantity = serializers.SerializerMethodField()
 
     class Meta(ProductSerializer.Meta):
-        fields = ProductSerializer.Meta.fields + ("is_favorited", "reviews", "favorites")
+        fields = ProductSerializer.Meta.fields + ("is_favorited", "reviews", "favorites", "available_quantity")
     
     def get_is_favorited(self, obj):
         request = self.context.get("request")
@@ -42,6 +43,9 @@ class ProductDetailSerializer(ProductSerializer):
         is_it_favorited = ProductFavorite.objects.filter(user=current_user, product=obj.pk).exists()
 
         return is_it_favorited
+    
+    def get_available_quantity(self, obj):
+        return max(obj.quantity - obj.number_sold, 0)
 
 
 class Products(ViewSet):
