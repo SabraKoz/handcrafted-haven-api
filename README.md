@@ -32,9 +32,9 @@ pipenv shell
 
 4. Run the debugger and start the client-side
 
-API is available at http://localhost:8000
+* API is available at http://localhost:8000
 
-Client-side is available at https://github.com/SabraKoz/handcrafted-haven-client
+* Client-side is available at https://github.com/SabraKoz/handcrafted-haven-client
 
 ## Creator
 
