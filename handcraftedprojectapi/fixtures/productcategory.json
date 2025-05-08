@@ -1,0 +1,44 @@
+[
+    {
+        "model": "handcraftedprojectapi.productcategory",
+        "pk": 1,
+        "fields": {
+            "name": "Art"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productcategory",
+        "pk": 2,
+        "fields": {
+            "name": "Clothing"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productcategory",
+        "pk": 3,
+        "fields": {
+            "name": "Jewelry"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productcategory",
+        "pk": 4,
+        "fields": {
+            "name": "Home Decor"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productcategory",
+        "pk": 5,
+        "fields": {
+            "name": "Toys & Games"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.productcategory",
+        "pk": 6,
+        "fields": {
+            "name": "Bags & Accessories"
+        }
+    }
+]

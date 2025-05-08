@@ -1,0 +1,92 @@
+[
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 1,
+        "fields": {
+            "order": 1,
+            "product": 6,
+            "customization": ""
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 2,
+        "fields": {
+            "order": 1,
+            "product": 12,
+            "customization": "Add a custom engraving: 'Happy Anniversary'"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 3,
+        "fields": {
+            "order": 2,
+            "product": 3,
+            "customization": ""
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 4,
+        "fields": {
+            "order": 2,
+            "product": 8,
+            "customization": "Use eco-friendly packaging"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 5,
+        "fields": {
+            "order": 3,
+            "product": 10,
+            "customization": ""
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 6,
+        "fields": {
+            "order": 4,
+            "product": 5,
+            "customization": "Gift wrap the item"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 7,
+        "fields": {
+            "order": 4,
+            "product": 18,
+            "customization": ""
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 8,
+        "fields": {
+            "order": 5,
+            "product": 24,
+            "customization": "Add a note: 'Thank you for being awesome!'"
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 9,
+        "fields": {
+            "order": 6,
+            "product": 1,
+            "customization": ""
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.orderproduct",
+        "pk": 10,
+        "fields": {
+            "order": 6,
+            "product": 23,
+            "customization": "Include extra care instructions"
+        }
+    }
+]

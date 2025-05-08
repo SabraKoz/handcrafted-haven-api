@@ -1,0 +1,68 @@
+[
+    {
+        "model": "handcraftedprojectapi.payment",
+        "pk": 1,
+        "fields": {
+            "merchant": "Visa",
+            "number": "4111111111111111",
+            "expiration": "2025-12-31",
+            "address": "123 Rustic Lane, Boulder, CO",
+            "user": 1
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.payment",
+        "pk": 2,
+        "fields": {
+            "merchant": "Mastercard",
+            "number": "5500000000000004",
+            "expiration": "2024-09-30",
+            "address": "456 Modern Ave, Denver, CO",
+            "user": 2
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.payment",
+        "pk": 3,
+        "fields": {
+            "merchant": "PayPal",
+            "number": "1234567890123456",
+            "expiration": "2026-03-15",
+            "address": "789 Jewelry Blvd, Golden, CO",
+            "user": 3
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.payment",
+        "pk": 4,
+        "fields": {
+            "merchant": "Discover",
+            "number": "6011000000000004",
+            "expiration": "2025-06-30",
+            "address": "101 Cozy Knit St, Fort Collins, CO",
+            "user": 4
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.payment",
+        "pk": 5,
+        "fields": {
+            "merchant": "American Express",
+            "number": "371449635398431",
+            "expiration": "2026-11-01",
+            "address": "202 Eclectic Circle, Loveland, CO",
+            "user": 5
+        }
+    },
+    {
+        "model": "handcraftedprojectapi.payment",
+        "pk": 6,
+        "fields": {
+            "merchant": "Visa",
+            "number": "4007000000027",
+            "expiration": "2024-08-25",
+            "address": "303 Toy Chest Road, Longmont, CO",
+            "user": 6
+        }
+    }
+]
