@@ -51,12 +51,3 @@ class Payments(ViewSet):
 
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
-    def destroy(self, request, pk=None):
-        try:
-            payment = Payment.objects.get(pk=pk)
-            payment.delete()
-
-            return Response({}, status=status.HTTP_204_NO_CONTENT)
-        
-        except Payment.DoesNotExist:
-            return Response({"message": "payment type does not exist"}, status=status.HTTP_404_NOT_FOUND)
